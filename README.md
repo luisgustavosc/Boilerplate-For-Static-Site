@@ -1,6 +1,6 @@
 # Boilerplate For Static Site
 
-This project is a boilerplate for an static website. Some notes to have in consideration.
+This project is a boilerplate for an static website. Some notes to have in consideration:
 
 - [Webpack](https://webpack.js.org/) set up for dev and prod environment.
 - [Bootstrap v5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) preinstalled as UI framework.
