@@ -46,8 +46,9 @@ module.exports = {
         }
       },
       {
-        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        test: /\.(woff|woff2|eot|ttf|otf|svg)$/i,
         type: 'asset/resource',
+        exclude: [/images/],
         generator: {
           filename: 'dist/fonts/[name][ext]'
         },
@@ -55,6 +56,7 @@ module.exports = {
       {
         test: /\.(jpg|jpeg|gif|png|svg)$/,
         type: 'asset/resource',
+        exclude: [/webfonts/],
       },
       {
         test: /\.s[ac]ss$/i,
