@@ -12,6 +12,9 @@ module.exports = merge(common, {
       directory: path.resolve(__dirname, 'build'),
     },
     historyApiFallback: true,
-    port: 9000
+    host: "0.0.0.0",
+    hot: true,
+    compress: true,
+    port: 80,
   }
 });
