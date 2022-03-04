@@ -22,10 +22,10 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
   context: __dirname,
   entry: {
-    app: './src/js/app.js'
+    app: path.resolve(__dirname, '../src/js/app.js'),
   },
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, '../build'),
     filename: 'dist/js/' + fileNamePrefix + '[name].js',
     assetModuleFilename: 'dist/images/[name][ext]',
     clean: true,
@@ -73,12 +73,12 @@ module.exports = {
   },
 	plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/index.html',
+      template: path.resolve(__dirname, '../src/index.html'),
     }),
     new CopyWebpackPlugin({
       patterns: [
         { 
-          from: 'src/images', 
+          from: path.resolve(__dirname, '../src/images'), 
           to: 'dist/images',
           noErrorOnMissing: true
         },

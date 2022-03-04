@@ -6,10 +6,8 @@ ENV APP_ENV ${APP_ENV}
 WORKDIR /usr/src/app
 
 #Install App
-COPY webpack.config.dev.js ./webpack.config.dev.js
-COPY webpack.config.prod.js ./webpack.config.prod.js
-COPY webpack.config.common.js ./webpack.config.common.js
 COPY package.json ./package.json
+COPY webpack ./webpack
 COPY src ./src
 
 RUN npm install
