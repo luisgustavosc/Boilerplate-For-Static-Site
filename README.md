@@ -31,3 +31,6 @@ The page will automatically reload if you change any of the source files.
    ```
 Generates the production build.<br>
 The build artifacts will be stored in the `build/` directory.<br>
+
+## License
+[MIT](LICENSE)
