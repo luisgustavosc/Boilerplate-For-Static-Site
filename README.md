@@ -22,7 +22,7 @@ In the project directory, you can run:
    ```
 
 Runs the project in the development mode.<br>
-Open [http://localhost:80](http://localhost:80) to view it in the browser.<br>
+Open [http://localhost](http://localhost) to view it in the browser.<br>
 The page will automatically reload if you change any of the source files.
 <br><br>
 
