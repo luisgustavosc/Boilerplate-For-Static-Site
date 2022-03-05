@@ -6,7 +6,7 @@ case $1 in
     npm start
     ;;
   prod)
-    echo "Prod Mode" 
+    echo "Prod Mode"
     npm run build
     ;;
   *)
