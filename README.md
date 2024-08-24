@@ -5,8 +5,7 @@ This boilerplate setup makes it easier to start building static sites with moder
 ## Features
 
 - [Webpack 5](https://webpack.js.org/) set up for a development environment that includes live reloading with webpack-dev-server, as well as a production environment where code is minified and optimized with caching techniques to ensure files produced by webpack compilation can remain cached unless their content has changed.
-- [Bootstrap v5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) preinstalled as UI framework.
-- [FontAwesome v5.15.4](https://fontawesome.com/v5/search) preinstalled for icons sets.
+- [Bootstrap v5](https://getbootstrap.com/docs/5.3/getting-started/introduction/) preinstalled as UI framework.
 - Modern Technologies: Full support for HTML5, JavaScript (Vanilla and ES6) and CSS (Sass)
 - SASS - Modular Folder Structure.
 
