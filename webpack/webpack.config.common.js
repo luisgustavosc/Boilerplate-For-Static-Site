@@ -15,7 +15,6 @@ const fileNamePrefix = isProduction? '[chunkhash].' : '';
 
 // Plugins
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
@@ -84,6 +83,5 @@ module.exports = {
         },
       ],
     }),
-    new CleanWebpackPlugin(),
 	],
 };

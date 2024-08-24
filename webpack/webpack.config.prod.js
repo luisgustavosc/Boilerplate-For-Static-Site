@@ -17,6 +17,10 @@ module.exports = merge(common, {
       new CssMinimizerPlugin(),
     ],
   },
+	performance: {
+    maxAssetSize: 350_000,
+    maxEntrypointSize: 350_000,
+  },
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'dist/css/[contenthash].[name].css',
